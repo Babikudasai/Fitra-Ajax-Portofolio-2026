@@ -29,8 +29,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
   }, [onComplete]);
 
   // Kata-kata yang diputar (diterjemahkan/disesuaikan untuk kesan elegan)
-  const words = useMemo(() => ["DESAIN", "KREASI", "INSPIRASI"], []);
-
+  const words = useMemo(() => ["MODERN ARCHITECT", "FULL-STACK ENGINEER", "PRODUCT R&D", "ELECTRONICS ENGINEER"], []);
+    
   // Efek Rotasi Kata (Setiap 900ms)
   useEffect(() => {
     const intervalId = setInterval(() => {
